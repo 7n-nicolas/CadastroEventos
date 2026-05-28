@@ -1,9 +1,14 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using CadastroEventos.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CadastroEventos
 {
     public partial class App : Application
     {
+        public List<Evento> ListaEventos { get; set; } = new List<Evento>()
+        {
+             
+        };
         public App()
         {
             InitializeComponent();

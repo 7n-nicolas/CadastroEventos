@@ -40,7 +40,7 @@
             TextColor="Orange"
             FontAttributes="Bold"
             HorizontalOptions="CenterAndExpand"/>
-        <Entry x:Name="n_participantes" Placeholder="Ex: 7" Keyboard="Numeric"/>
+        <Entry x:Name="n_participantes" Placeholder="Ex: 30" Keyboard="Numeric"/>
                 </VerticalStackLayout>
 
         <VerticalStackLayout>
@@ -60,6 +60,7 @@
     HorizontalOptions="CenterAndExpand"/>
             <Entry x:Name="c_participante" Placeholder="R$ 0" Keyboard="Numeric" />
         </VerticalStackLayout>
-        
+
+        <Button Text="CRIAR EVENTO" BackgroundColor="GreenYellow" Clicked="Button_Clicked" HorizontalOptions="Center"/>
     </VerticalStackLayout>
 </ContentPage>
